@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="blog.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!----- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <title>Reactjs Blog</title>
+  </head>
+  <body>
+
+    <div class="loader-bg">
+      <div class="loader"></div>
+    </div>
+    <!---------------------------Nvigation-Bar-------------------------->
+
+    <nav>
+      <a href="index.html"><img src="images/logo.png" alt="" /></a>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <img id="menu" src="images/menu.png" alt="" />
+      </div>
+    </nav>
+
+    <section id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+          <img src="images/b1.jpg" alt="" />
+          <h3>Learn React Js in the Easiest way</h3>
+          <p>
+            React is a framework that employs Webpack to automatically compile
+            React, JSX, and ES6 code while handling CSS file prefixes. React is
+            a JavaScript-based UI development library. Although React is a
+            library rather than a language, it is widely used in web
+            development. The library first appeared in May 2013 and is now one
+            of the most commonly used frontend libraries for web development.
+            <br /><br />
+            React offers various extensions for entire application architectural
+            support, such as Flux and React Native, beyond mere UI. <br /><br />
+            When compared to other technologies on the market, React is a new
+            technology. Jordan Walke, a software engineer at Facebook, founded
+            the library in 2011, giving it life. The likes of XHP, a
+            straightforward HTML component framework for PHP, have an influence
+            on React. React's newsfeed was its debut application in 2011. Later,
+            Instagram picks it up and incorporates it into their platform.
+            <br /><br />
+            React's popularity today has eclipsed that of all other front-end
+            development frameworks. Here is why: <br />
+            <br />
+            (i) Easy creation of dynamic applications: React makes it easier to
+            create dynamic web applications because it requires less coding and
+            offers more functionality, as opposed to JavaScript, where coding
+            often gets complex very quickly. <br /><br />
+            (ii) Improved performance: React uses Virtual DOM, thereby creating
+            web applications faster. Virtual DOM compares the components
+            previous states and updates only the items in the Real DOM that were
+            changed, instead of updating all of the components again, as
+            conventional web applications do. <br /><br />
+            (iii) Reusable components: Components are the building blocks of any
+            React application, and a single app usually consists of multiple
+            components. These components have their logic and controls, and they
+            can be reused throughout the application, which in turn dramatically
+            reduces the application's development time. <br /><br />
+            (iv) Unidirectional data flow: React follows a unidirectional data
+            flow. This means that when designing a React app, developers often
+            nest child components within parent components. Since the data flows
+            in a single direction, it becomes easier to debug errors and know
+            where a problem occurs in an application at the moment in question.
+            <br /><br />
+            (v) Small learning curve: React is easy to learn, as it mostly
+            combines basic HTML and JavaScript concepts with some beneficial
+            additions. Still, as is the case with other tools and frameworks,
+            you have to spend some time to get a proper understanding of React's
+            library. <br />
+            <br />
+            (vi) It can be used for the development of both web and mobile apps:
+            We already know that React is used for the development of web
+            applications, but that's not all it can do. There is a framework
+            called React Native, derived from React itself, that is hugely
+            popular and is used for creating beautiful mobile applications. So,
+            in reality, React can be used for making both web and mobile
+            applications. <br /><br />
+            (vii) Dedicated tools for easy debugging: Facebook has released a
+            Chrome extension that can be used to debug React applications. This
+            makes the process of debugging React web applications faster and
+            easier. <br /><br />
+            The above reasons more than justify the popularity of the React
+            library and why it is being adopted by a large number of
+            organizations and businesses. Now let's familiarize ourselves with
+            React's features. <br /><br />
+            After answering what is ReactJs, let us know what are keys.
+            <br /><br />
+            While dealing with components that are produced periodically in
+            React, keys are essential. Your component will continue to be
+            uniquely identifiable after the modification if the key value is
+            set. They aid React in determining which elements have changed, been
+            eliminated, or been added. <br /><br />
+            When making lists of components in React, you must use a special
+            string personality factor "key". React uses keys to indicate which
+            list items have been modified, destroyed, or altered. Or, to put it
+            another way, we may say that keys are utilized to identify the
+            components in lists. <br /><br />
+            ReactJS Advantages :- <br />
+            1- React.js builds a customized virtual DOM. Because the JavaScript
+            virtual DOM is quicker than the conventional DOM, this will enhance
+            the performance of apps. <br />
+            2- ReactJS makes an amazing UI possible. <br />
+            3- Search - engine friendly ReactJS. <br />
+            4- React makes the entire scripting environment process simpler.
+            <br />
+            5- ReactJS is supported by a large community <br />
+            <br />
+            Limitations :- <br />
+            1- Only addresses the app's angle and distance; as a result,
+            additional techniques must be selected if you want a full collection
+            of development tools. <br>
+            2- Employs inline scripting and JSX, which some programmers might find uncomfortable.
+          </p>
+          <a href="blog.html">Read Next ?</a>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------Footer---------------------------------->
+
+    <footer>
+      <div class="footer-col">
+        <h3>Top Products</h3>
+        <a href=""><li>Manage Reputation</li></a>
+        <a href=""><li>Power Tools</li></a>
+        <a href=""><li>Managed Websites</li></a>
+        <a href=""><li>Marketing Services</li></a>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <a href=""><li>Jobs</li></a>
+        <a href=""><li>Brand Assests</li></a>
+        <a href=""><li>Investor Relations</li></a>
+        <a href=""><li>Terms of Services</li></a>
+      </div>
+      <div class="footer-col">
+        <h3>Features</h3>
+        <a href=""><li>Manage Reputation</li></a>
+        <a href=""><li>Marketing Services</li></a>
+        <a href=""><li>Power Tools</li></a>
+        <a href=""><li>Managed Websites</li></a>
+      </div>
+      <div class="footer-col">
+        <h3>Resources</h3>
+        <a href=""><li>Research</li></a>
+        <a href=""><li>Experts</li></a>
+        <a href=""><li>Guides</li></a>
+        <a href=""><li>Marketing Services</li></a>
+      </div>
+
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us , we only sends promo offers.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email Address" />
+          <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          Copyright &copy2023 All Rights Reserved | This is Official Website of
+          TechEduca
+        </p>
+        <div class="prolinks">
+          <a href=""><i class="fab fa-facebook" title="Facebook"></i></a>
+          <a href=""><i class="fab fa-instagram" title="Instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin" title="Linkdin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $("#menu").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+      setTimeout(function () {
+        $(".loader-bg").fadeToggle();
+      }, 1300);
+
+      /*  var waypoint = new Waypoint({
+        element: document.getElementById("px-offset-waypoint"),
+        handler: function (direction) {
+          notify("I am 20px from the top of the window");
+        },
+        offset: 20,
+      });
+
+      $(document).ready(function(){
+        $('.h1').waypoint(function(direction){
+          $('.h1').addClass('animated fadeup')
+        },{
+          offset:'50%'
+        })  
+          })    */
+    </script>
+  </body>
+</html>
